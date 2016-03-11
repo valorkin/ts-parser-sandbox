@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "removeComments": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "outDir": "rules"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "src/accessorPairsRule.ts",
+    "typings/main.d.ts"
+  ]
+}

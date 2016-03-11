@@ -1,0 +1,8 @@
+{
+  "env":{
+    "es6": true
+  },
+  "rules": {
+    "accessor-pairs": [2, {"getWithoutSet": true}]
+  }
+}

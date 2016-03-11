@@ -1,0 +1,23 @@
+{
+  "name": "tslint-eslint-rules-generator",
+  "version": "0.0.0",
+  "description": "Generate tslint rules from eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tsc && ./node_modules/.bin/tslint test/fixture.ts",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "keywords": [
+    "tslint",
+    "eslint"
+  ],
+  "author": "Dmitriy Shekhovtsov <valorkin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.3.0",
+    "tslint": "3.5.0",
+    "typescript": "1.8.7",
+    "typescript-eslint-parser": "0.1.0-alpha-1",
+    "typings": "0.7.7"
+  }
+}
